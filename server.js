@@ -18,5 +18,5 @@ app.use('/api/posts',require('./routes/api/posts'));
 
 
 const PORT = process.env.PORT || 5000;
-//server checking
+//server check
 app.listen(PORT, ()=> console.log(`server started on ${PORT}`));
